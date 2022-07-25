@@ -1,0 +1,141 @@
+<html>
+    <head>
+        <title>Contacts</title>
+
+        <style>
+
+            
+            #navbar{
+                background-color: #3ed773;  
+                position: fixed;  
+                left: 0;  
+                right: 0;  
+                top: 5px;  
+                height: 50px;   
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+
+            #navbar li{
+                list-style-type: none;
+                padding: 2%;
+            }
+
+            #navbar li a{
+                text-decoration: none;
+                color: black;  
+            }
+
+            #navbar li a:hover{
+                color:#FCF8E8;
+            }
+
+            h1{
+                padding-top:5%;
+            }
+
+            input{
+                width: 500px;
+            }
+
+            tr{
+                height: 50px;
+            }
+
+            table{
+                margin-left:50px;
+            }
+            #button{
+                text-align: center;
+            }
+
+            #button button{
+                background-color:rgba(134, 240, 134, 0.849);
+                height: 100%;
+                width: 15%;
+                border:none;    
+            }
+
+        </style>
+
+
+    </head>
+
+    <body>
+
+        <div id="navbar">
+            
+            <li><a href="home.html" target="_blank">Home</a></li>
+            <li><a href="news.html" target="_blank">News</a></li>
+            <li><a href="contacts.html" target="_blank">Contact</a></li>
+            <li><a href="about.html" target="_blank">About</a></li>
+        
+    </div>
+        <h1>Contact us</h1>
+        <p> Contact us about anything related to our company or services.</p>
+        <table>
+            <tr>
+                <th>
+                    Your Name: 
+                </th>
+                <td>
+                    <input type="text" />
+                </td>
+            </tr>
+
+            <tr>
+                <th>
+                    Phone Number: 
+                </th>
+                <td>
+                    <input type="text" />
+                </td>
+            </tr>
+
+            <tr>
+                <th>
+                    Email: 
+                </th>
+                <td>
+                    <input type="text" />
+                </td>
+            </tr>
+
+            <tr>
+                <th>
+                    Your Company: 
+                </th>
+                <td>
+                    <input type="text" />
+                </td>
+            </tr>
+
+            <tr>
+                <th>
+                    Subject: 
+                </th>
+                <td>
+                    <input type="text" />
+                </td>
+            </tr>
+
+            <tr>
+                <th>
+                    Your question: 
+                </th>
+                <td>
+                    <input type="text" />
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" style="margin-left:20px">
+                    <div id="button">
+                        <button text-align="center">Submit</button>
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </body>
+
+</html>
