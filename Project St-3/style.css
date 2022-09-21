@@ -1,0 +1,220 @@
+body{
+
+    background-color:black;
+    background-repeat:inherit;
+    background-size:contain;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    animation: gradient 2s infinite linear;
+
+
+}
+
+
+.top{
+    background-color:rgba(240, 16, 16, 0.1) ;
+    color: aliceblue;
+    text-align: center;
+    margin-top:0;
+
+}
+
+
+
+.planet{
+    margin-right: 4vh;
+    text-align: center;
+}
+
+
+#n1{
+    height: 5vh;
+    width: 40vh;
+    outline: none;
+}
+
+#text{
+    color:white;
+    padding-left: 3vh;
+    font-size: 18px;
+}
+
+
+.firstRow{
+
+    overflow-x: scroll;
+    margin-bottom: 1vh;
+}
+.Sun{
+
+height: 150vh;
+width: 20vh;
+margin-right: auto;
+margin-left: 0%;
+}
+
+
+
+.Sun1{
+
+    height: 80vh;
+    width: 35vh;
+    margin-left:-20px
+}
+
+.Sun1:hover{
+
+    height: 82vh;
+    width: 44vh;
+}
+
+
+.planet{
+    justify-content: space-around;
+    color:white;
+    font-size: 12px;
+}
+
+.mer{
+
+
+    height: 10vh;
+    width: 10vh;
+    margin-top: 40vh;
+    margin-left: 17vh;
+}
+
+.mer:hover{
+
+    height: 12vh;
+    width: 12vh;
+    margin-top: 39vh;
+}
+
+.Ven{
+
+    height: 13vh;
+    width: 17vh;
+    margin-top: 38vh;
+    margin-left: 15vh;
+
+}
+
+
+.Ven:hover{
+
+    height: 15vh;
+    width: 20vh;
+    margin-top: 37vh;
+}
+
+
+.Ear{
+    height: 18vh;
+    width: 1.6avh;
+    margin-top: 35vh;
+    margin-left: 15vh;
+
+}
+
+.Ear:hover{
+
+    height: 22vh;
+    width: 2avh;
+    margin-top: 34vh;
+}
+
+.Mar{
+    height: 11vh;
+    width: 7avh;
+    margin-top: 39vh;
+    margin-left: 10vh;
+}
+
+.Mar:hover{
+
+    height: 13vh;
+    width: 9avh;
+    margin-top: 38vh;
+}
+
+.Jup{
+  height: 40vh;
+  margin-top: 20vh;
+  margin-left: -10vh;
+}
+
+.Jup:hover{
+
+    height: 44vh;
+    margin-top: 19vh;
+    
+}
+
+.Sat{
+    height: 35vh;
+    margin-top: 22vh;
+    margin-left: -8vh;
+
+}
+
+.Sat:hover{
+
+    height: 38vh;
+    margin-top: 21vh;
+    
+}
+
+.Ura{
+    height: 26vh;
+    margin-top: 27vh;
+    margin-left: 14vh;
+}
+
+.Ura:hover{
+
+    height: 29vh;
+    margin-top: 26vh;
+    
+}
+
+.Nep{
+
+    height: 25vh;
+    margin-top: 28vh;
+    margin-left: 14vh;
+}
+
+.Nep:hover{
+
+    height: 28vh;
+    margin-top: 27vh;
+    
+}
+
+.Plu{
+
+    height: 10vh;
+    margin-top: 35vh;
+    margin-left: 14vh;
+}
+
+.Plu:hover{
+
+    height: 13vh;
+    margin-top: 34vh;
+    
+}
+
+#ans{
+    height: 400px;
+    width: 50px;
+    background-color: white;
+}
+
+
+#n1{
+    margin-left: 2vh;
+    height: 5vh;
+    width: 30vh;
+}
